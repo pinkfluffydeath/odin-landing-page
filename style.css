@@ -1,12 +1,13 @@
 
 body{
-    background-color: beige;
+background-color:#212529;;
 }
  
 .header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex: 1 1 auto;
 }
 
 ul{
@@ -23,16 +24,27 @@ ul{
     width: fit-content;
 } 
 
-li{
-    list-style: none;
+li a{
+    text-decoration: none;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: yellow;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+li a:hover{
+    background-color: rgb(254, 233, 43);
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style-type: none;
     font-family: "sintony", sans-serif, "Tahoma", "Geneva", "Arial";
     font-size: 25px;
     font-weight: 5;
     color: white;
-    border: 3px;
-    border-color: yellow;
-    border-style: double;
-    padding: 7px;
 }
 
 video{
@@ -45,6 +57,7 @@ video{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px;
 }
 
 .logo{
@@ -52,9 +65,6 @@ video{
     flex-direction: row;
     justify-content: center;
     margin-bottom: 80px;
-}
-
-.logo{
     height: 400px;
     width: auto;
 }
@@ -62,6 +72,7 @@ video{
 .register{
 text-align: center;
 color: rgb(90, 89, 89);
+margin-bottom: 120px;
 }
 
 h1{
@@ -92,4 +103,38 @@ button{
 .captions div{
     width: 350px;
     text-align: center;
+}
+
+.container{
+    background-color: beige; 
+    margin: 20px 20px;
+    height: fit-content;
+    padding: 15px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 161, 161);
+    text-align: center;
+
+}
+
+div h3{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(19, 19, 19);
+    
+
+}
+div p{
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.tb{
+    margin:15px;
 }

@@ -1,8 +1,8 @@
 
 body{
-background-color:#212529;;
+    background-color:  #1f2937;
 }
- 
+
 .header{
     display: flex;
     flex-direction: row;
@@ -57,7 +57,7 @@ video{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px;
+    margin-bottom: 35px;
 }
 
 .logo{
@@ -72,7 +72,7 @@ video{
 .register{
 text-align: center;
 color: rgb(90, 89, 89);
-margin-bottom: 120px;
+margin-bottom: 100px;
 }
 
 h1{
@@ -84,7 +84,12 @@ button{
     margin: 15px;
     font-weight: 500;
     border-radius: 3px;
+    background-color: transparent;
+}
 
+button:hover{
+    background-color: #3882f6;
+    color: white;
 }
 
 .pics {
@@ -106,8 +111,8 @@ button{
 }
 
 .container{
-    background-color: beige; 
-    margin: 20px 20px;
+    background-color: #f9b234; 
+    margin: 35px 50px;
     height: fit-content;
     padding: 15px;
 }
@@ -116,7 +121,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(162, 161, 161);
+    background-color: #e5e7eb;
     text-align: center;
 
 }
@@ -129,7 +134,7 @@ div h3{
 
 }
 div p{
-    color: white;
+    color: rgb(14, 22, 127);
     padding: 0px;
     margin: 0px;
 }
